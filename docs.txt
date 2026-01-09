@@ -1,0 +1,23 @@
+npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-import eslint-config-prettier eslint-plugin-jest
+
+npm i @woowacourse/mission-utils
+
+
+변경시
+git remote set-url origin https://github.com/iftype/practice_attendance.git
+
+
+###
+
+chore: 개발 환경 도구설정 추가
+
+- Prettier, ESlint: 컨벤션을 위해 스타일라이브러리 추가
+- @woowacourse/mission-utils:유틸라이브러리 추가
+
+### 
+
+chore: 프로젝트 기본 아키텍처 세팅
+
+- MVC 패턴을 위한 폴더 구조 생성 (Controller, Domain, View)
+- 도메인 유효성 검증을 위한 기초 클래스 추가
+- Jest 테스트 환경 설정 완료
