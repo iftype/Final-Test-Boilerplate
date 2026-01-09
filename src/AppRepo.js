@@ -1,8 +1,8 @@
-import Controller from './Controller/RepeatController.js';
-import Repository from './Repository/Repository.js';
-import RepoService from './Service/RepoService.js';
-import InputView from './View/InputView.js';
-import OutputView from './View/OutputView.js';
+import Controller from './controllers/RepeatController.js';
+import Repository from './repositories/Repository.js';
+import RepoService from './services/RepoService.js';
+import InputView from './views/InputView.js';
+import OutputView from './views/OutputView.js';
 
 class AppRepo {
   async run() {

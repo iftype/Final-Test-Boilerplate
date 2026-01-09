@@ -1,4 +1,4 @@
-import Validator from '../../Util/Validator.js';
+import Validator from '../../utils/Validator.js';
 
 export default class Money {
   static RULE = Object.freeze({

@@ -1,5 +1,5 @@
-import Money from '../Domain/models/Money.js';
-import Temp from '../Domain/models/Temp.js';
+import Money from '../domain/models/Money.js';
+import Temp from '../domain/models/Temp.js';
 
 export default class TemplateController {
   #inputView;

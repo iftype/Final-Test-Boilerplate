@@ -1,6 +1,6 @@
 import Crew from '../Domain/models/Crew.js';
 import Record from '../Domain/models/Record.js';
-import { readCSV } from '../Util/fileReader.js';
+import { readCSV } from '../utils/fileReader.js';
 
 export default class Repository {
   #crews = new Map();

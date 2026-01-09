@@ -1,7 +1,7 @@
-import { InputView } from './View/InputView.js';
-import { OutputView } from './View/OutputView.js';
 import TemplateController from './Controller/TemplateController.js';
 import TempService from './Service/TempService.js';
+import InputView from './views/InputView.js';
+import OutputView from './views/OutputView.js';
 
 class App {
   async run() {
